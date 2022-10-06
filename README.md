@@ -23,6 +23,7 @@ vue.config.js     // vue 설정
   └ componets     // 컴포넌트
     └ ...
   └ layout        // include 레이아웃
+  └ router        // 라우터 설정
   └ views         // 페이지
     └ ...
   └ App.vue
@@ -42,3 +43,4 @@ node, git 설치 후
 - `vue-cli3`
 - `style scoped` + `scss` 전역 변수는 assets/scss/ 에서 정의해서 사용
 - `jQuery`: 필요 시 index.html 전역 jquery cdn 추가
+- `Header` + `router-view` + `Footer` 기본 뼈대
