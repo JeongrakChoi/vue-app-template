@@ -3,9 +3,10 @@
         <h1>Footer</h1>
     </div>
 </template>
-<style scoped>
+
+<style scoped lang="scss">
     .footer {
-    text-align: center;
-    background-color: lightgray;
+        text-align: center;
+        background-color: lightgray;
     }
 </style>

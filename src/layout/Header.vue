@@ -4,7 +4,7 @@
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
     .header {
         text-align: center;
         background-color: lightgray;

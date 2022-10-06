@@ -23,9 +23,9 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     div{
-        background:#dcdcdc
+        background-color:$theme-color
     }
 </style>
   
