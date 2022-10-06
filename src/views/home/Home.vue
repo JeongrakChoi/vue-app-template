@@ -19,6 +19,11 @@
         },
         components: {
             Example
+        },
+        created() {
+            $(document).ready(function(){
+                alert('import jquery')
+            });
         }
     }
 </script>
