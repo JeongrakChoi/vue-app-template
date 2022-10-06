@@ -1,24 +1,44 @@
 # vue-app-template
 
-## Project setup
+Vue UI 작업용 Template
+
+## 개요
+
+- 주 사용자 : 웹 퍼블리셔  
+- UI 작업을 빠르게 시작하기 위한 기본 프로젝트 세팅 
+
+## 디렉토리  
 ```
-npm install
+/
+node_modules/     // node 모듈
+public/           // public
+package.json
+package-lock.json
+vue.config.js     // vue 설정
+└ src             // 작업 폴더
+  └ assets        // 리소스
+    └ fonts
+    └ images
+    └ scss
+  └ componets     // 컴포넌트
+    └ ...
+  └ layout        // include 레이아웃
+  └ views         // 페이지
+    └ ...
+  └ App.vue
+  └ main.js
 ```
 
-### Compiles and hot-reloads for development
+## 설치
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+node, git 설치 후
+> npm install
+> npm run serve 서버 가동
+> npm run build 빌드
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 메모
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- `vue-cli3`
+- `style scoped` + `scss` 전역 변수는 assets/scss/ 에서 정의해서 사용
+- `jQuery`: 필요 시 index.html 전역 jquery cdn 추가
